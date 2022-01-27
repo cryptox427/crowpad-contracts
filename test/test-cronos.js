@@ -26,6 +26,7 @@ const CrowpadGoldTierStakerAddress = "0x2279B7A0a67DB372996a5FaB50D91eAA73d2eBe6
 
 let owner;
 
+// CrowpadAirdropper
 describe.skip("CrowpadAirdropper", function () {
   let crowpadAirdropper, cronosToken;
   beforeEach(async function () {
@@ -127,6 +128,7 @@ describe.skip("CrowpadAirdropper", function () {
   });
 });
 
+// CrowpadSimpleTokenFactory
 describe.skip("CrowpadSimpleTokenFactory", function () {
   let crowpadSimpleTokenFactory;
   beforeEach(async function () {
@@ -163,6 +165,7 @@ describe.skip("CrowpadSimpleTokenFactory", function () {
   });
 });
 
+// CrowpadSaleFactory
 describe("CrowpadSaleFactory", function () {
   let crowpadSaleFactory;
   beforeEach(async function () {
@@ -190,9 +193,9 @@ describe("CrowpadSaleFactory", function () {
       12312312,
       15555555,
       3000,
-      100,
-      1000,
-      50,
+      // 100, // Founter
+      // 1000, // Foundation
+      // 50, // Partner
       12222222
     );
   });
@@ -211,6 +214,7 @@ describe("CrowpadSaleFactory", function () {
 
 });
 
+// CrowpadTokenFactory
 describe.skip("CrowpadTokenFactory", function () {
   let crowpadTokenFactory;
   beforeEach(async function () {

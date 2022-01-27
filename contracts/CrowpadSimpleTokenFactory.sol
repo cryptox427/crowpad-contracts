@@ -43,7 +43,7 @@ contract CrowpadSimpleTokenFactory is Ownable {
     function setFeeAddress(address payable _newAddress) external onlyOwner {
         feeAddress = _newAddress;
     }
-    
+
     /**
     * @notice Create new token
     * @param _name token name
